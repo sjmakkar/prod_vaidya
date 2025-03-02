@@ -33,7 +33,7 @@ const SignupForm = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch("https://userauth-production-61c5.up.railway.app/doctor/register", {
+      const response = await fetch("https://userauth-production-a0f4.up.railway.app/doctor/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

@@ -96,7 +96,7 @@ const PrescriptionForm = ({ viewMode = false, initialData = null, patientId: pro
       const fetchData = async () => {
         try {
           const doctorResponse = await axios.get(
-            `https://userauth-production-61c5.up.railway.app/doctor/${user.userId}`,
+            `https://userauth-production-a0f4.up.railway.app/doctor/${user.userId}`,
             { headers: { Authorization: `Bearer ${token}` } }
           );
           const doctorData = doctorResponse.data;
